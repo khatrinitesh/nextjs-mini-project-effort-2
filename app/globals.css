@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*===================== HEADER */
+header{
+  background-color: #000;
+}
+
+header ul li a{
+  padding: 10px;
+  display: block;
+}
+
+header ul li a.active{
+  background-color: red;
+}
+
+.site-header h3{
+  color:#fff;
+  padding:20px;
+}
+
+/*===================== FOOTER */
+footer{
+  background-color: #000;
+  color:#fff;
+  padding: 10px;
+}
